@@ -1,0 +1,58 @@
+body, html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+    background-image: url("back.jpeg");
+    background-size: cover;
+    background-position: center;  
+}
+
+h1 {
+    min-width: 37vh;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 4vh;
+    text-transform: uppercase;
+    color: black;
+}
+
+.container_half {
+  display: flex;
+  align-items: center;
+  min-height: 50%;
+  justify-content: center;
+}
+
+.container_quarter {
+  display: flex;
+  align-items: center;
+  min-height: 25%;
+  justify-content: center;
+}
+
+.container-item {
+  flex: 1;
+}
+
+.container-bottom {
+  flex-flow: wrap;
+  align-self: flex-end;
+}
+
+.button_style {
+  width: 20vh;
+  height: 7vh;
+  background-color: rgb(89, 98, 223);
+  border-radius: 7vh;
+  text-transform: uppercase;
+  text-align: center;
+  color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2vh;
+}
+/* mailchimp signup form styling */
+#mc_embed_signup { 
+  clear:left; 
+  font:14px Helvetica,Arial,sans-serif; 
+}
